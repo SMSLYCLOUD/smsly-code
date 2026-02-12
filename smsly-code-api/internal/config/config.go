@@ -14,6 +14,7 @@ type Config struct {
 	DBName     string
 	DBSSLMode  string
 	Port       string
+	JWTSecret  string
 }
 
 func LoadConfig() Config {
@@ -28,6 +29,7 @@ func LoadConfig() Config {
 		DBName:     getEnv("DB_NAME", "smsly_code"),
 		DBSSLMode:  getEnv("DB_SSLMODE", "disable"),
 		Port:       getEnv("API_PORT", "8080"),
+		JWTSecret:  getEnv("JWT_SECRET", "secret"),
 	}
 }
 
