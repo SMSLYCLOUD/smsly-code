@@ -1,52 +1,5 @@
-# Dependencies
+# ... existing ...
+smsly-git/git-data/
+smsly-git/target/
 node_modules/
-vendor/
-target/
-
-# Build outputs
-/smsly-code-api/smsly-code-api
-/smsly-code-api/smsly-code-api.exe
-/smsly-git/target/
-/smsly-code-web/.next/
-/smsly-code-web/out/
-
-# Environment
 .env
-.env.local
-.env.production
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Docker
-docker-compose.override.yml
-
-# Data
-/data/
-*.db
-*.sqlite
-
-# Logs
-*.log
-logs/
-
-# Coverage
-coverage/
-*.cover
-*.out
-htmlcov/
-
-# Secrets
-*.pem
-*.key
-*.cert
-!*.key.example
