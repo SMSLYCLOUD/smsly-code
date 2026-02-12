@@ -59,6 +59,21 @@ make dev-up
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for setup instructions.
 
+## Roadmap & Agent Plans
+
+This project is built by a swarm of specialized agents. We have defined 10 distinct mission plans to reach feature parity with GitHub:
+
+1.  **[Core Git Protocol](plans/01_git_protocol.md):** Smart HTTP, SSH, Hooks.
+2.  **[Identity & Auth](plans/02_auth_identity.md):** OAuth, RBAC, Organizations, GPG Keys.
+3.  **[Social & Discovery](plans/03_repo_social.md):** Forks, Stars, Wiki, Discussions.
+4.  **[Code Review](plans/04_code_review.md):** Pull Requests, Diffs, Merge Strategies.
+5.  **[Project Management](plans/05_project_management.md):** Issues, Kanban, Milestones.
+6.  **[CI/CD Actions](plans/06_cicd_actions.md):** SMSLY Actions, Runners, Secrets.
+7.  **[Security & MIP](plans/07_security_mip.md):** Integrity Stamps, Dependency Graph, Secret Scanning.
+8.  **[Frontend Foundation](plans/08_frontend_foundation.md):** Design System, Command Palette, WebSockets.
+9.  **[Frontend Features](plans/09_frontend_features.md):** Monaco Editor, Blame, Graphs.
+10. **[Infrastructure](plans/10_infra_search.md):** Search, Scaling, K8s, Observability.
+
 ## License
 
 MIT License — see [LICENSE](LICENSE) for details.
